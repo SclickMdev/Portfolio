@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  animation-name: webint;
+  animation-duration: 0.5s;
+}
+
+@keyframes webint {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+
+.header {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.svgimg {
+  z-index: -500;
+  position: absolute;
+  top: -45px;
+}
+
+.intro h2 {
+  padding-top: 180px;
+}
+
+.profile {
+  position: absolute;
+  top: 272px;
+  right: 145px;
+  width: 100px;
+  height: 100px;
+
+}
+
+.intro h1 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 350px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.intro p {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 390px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.More h3 {
+ position: absolute;
+ top: 450px;
+ font-size: 20px;
+}
+
+.More p {
+  padding-top: 100px;
+  text-align: left;
+}
